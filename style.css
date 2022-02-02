@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: digital;
+    src: url(font/Digital7-1e1Z.ttf);
+}
+
+/* container */
+.container {
+    background-color: #7ed6df;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 18px;
+    box-sizing: border-box;
+    /* border: 1px solid #22a6b3; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px lightgrey;
+}
+
+/* wadah output */
+.container .output-number {
+    background-color: white;
+    height: 100px;
+    font-size: 50px;
+    margin: auto;
+    position: relative;
+    overflow-y: hidden;
+    font-family: digital;
+    /* border: 1px solid #30336b; */
+    color: #2f3542;
+    border-radius: 5px;
+}
+
+.container .output-number span {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    /* background-color: aqua; */
+}
+
+/* grid all button  */
+.container .button-number .sama-dengan          { grid-area: samadengan; background-color: #22a6b3; color: white;}
+.container .button-number .sama-dengan:hover    { background-color: #209ba7;}
+
+.container .button-number .tambah               { grid-area: tambah; background-color: #22a6b3; color: white;}
+.container .button-number .tambah:hover         { background-color: #209ba7;}
+
+.container .button-number .bagi                 { grid-area: bagi; background-color: #22a6b3; color: white;}
+.container .button-number .bagi:hover           { background-color: #209ba7;}
+
+.container .button-number .koma                 { grid-area: koma; background-color: #22a6b3; color: white;}
+.container .button-number .koma:hover           { background-color: #209ba7;}
+
+.container .button-number .persen               { grid-area: persen; background-color: #22a6b3; color: white;}
+.container .button-number .persen:hover         { background-color: #209ba7;}
+
+.container .button-number .kurang               { grid-area: kurang; background-color: #22a6b3; color: white;}
+.container .button-number .kurang:hover         { background-color: #209ba7;}
+
+.container .button-number .kali                 { grid-area: kali; background-color: #22a6b3; color: white;}
+.container .button-number .kali:hover           { background-color: #209ba7;}
+
+.container .button-number .clear                { grid-area: clear; background-color: #22a6b3; color: white;}
+.container .button-number .clear:hover          { background-color: #209ba7;}
+
+.container .button-number .nol                  { grid-area: nol;}
+.container .button-number .nol:hover            { background-color: #dff9fb;}
+
+.container .button-number .sembilan         { grid-area: sembilan;}
+.container .button-number .sembilan:hover   { background-color: #dff9fb;}
+
+.container .button-number .delapan          { grid-area: delapan;}
+.container .button-number .delapan:hover    { background-color: #dff9fb;}
+
+.container .button-number .tujuh            { grid-area: tujuh;}
+.container .button-number .tujuh:hover      { background-color: #dff9fb;}
+
+.container .button-number .enam             { grid-area: enam;}
+.container .button-number .enam:hover       { background-color: #dff9fb;}
+
+.container .button-number .lima             { grid-area: lima;}
+.container .button-number .lima:hover       { background-color: #dff9fb;}
+
+.container .button-number .empat            { grid-area: empat;}
+.container .button-number .empat:hover      { background-color: #dff9fb;}
+
+.container .button-number .tiga             { grid-area: tiga;}
+.container .button-number .tiga:hover       { background-color: #dff9fb;}
+
+.container .button-number .dua              { grid-area: dua;}
+.container .button-number .dua:hover        { background-color: #dff9fb;}
+
+.container .button-number .satu             { grid-area: satu;}
+.container .button-number .satu:hover       { background-color: #dff9fb;}
+
+/* tombol button number dan lain" */
+.container .button-number {
+    padding: 7px 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    column-gap: 6px;
+    row-gap: 6px;
+    justify-content: center;
+    grid-template-areas: 'clear persen koma bagi'
+                         'satu dua tiga kali'
+                         'empat lima enam kurang'
+                         'tujuh delapan sembilan tambah' 
+                         'nol samadengan samadengan samadengan';
+}
+
+/* button */
+.container .button-number button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    color: #2f3542;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
+
