@@ -24,7 +24,7 @@
 .container .output-number {
     background-color: white;
     height: 100px;
-    font-size: 50px;
+    font-size: 55px;
     margin: auto;
     position: relative;
     overflow-y: hidden;
@@ -36,8 +36,8 @@
 
 .container .output-number span {
     position: absolute;
-    bottom: 8px;
-    right: 8px;
+    bottom: 12px;
+    right: 12px;
     /* background-color: aqua; */
 }
 
