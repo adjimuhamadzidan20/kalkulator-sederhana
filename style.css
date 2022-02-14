@@ -28,7 +28,7 @@
     margin: auto;
     position: relative;
     overflow-y: hidden;
-    font-family: digital;
+    font-family: digital, sans-serif;
     /* border: 1px solid #30336b; */
     color: #2f3542;
     border-radius: 5px;
