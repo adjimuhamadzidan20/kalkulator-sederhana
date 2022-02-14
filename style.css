@@ -36,8 +36,8 @@
 
 .container .output-number span {
     position: absolute;
-    bottom: 0;
-    right: 5px;
+    bottom: 8px;
+    right: 8px;
     /* background-color: aqua; */
 }
 
