@@ -33,11 +33,12 @@
     color: #2f3542;
     border-radius: 5px;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 .container .output-number span {
     position: absolute;
-    bottom: 8px;
+    bottom: 12px;
     right: 12px;
     /* background-color: aqua; */
 }
