@@ -8,6 +8,11 @@
     src: url(font/Digital7-1e1Z.ttf);
 }
 
+body {
+    background-image: url(background/memphis-mini.png);
+    background-position: center;
+}
+
 /* container */
 .container {
     background-color: #7ed6df;
